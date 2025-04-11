@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #87ceeb, #f0e68c);
+    color: #333;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 40px;
+  }
+  
+  h1 {
+    color: #ffcc00;
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .spongebob-img {
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  #quote {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #222;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    background-color: #ffeb3b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: #fdd835;
+  }
+  
